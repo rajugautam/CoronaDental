@@ -7,27 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435869671B259534001574EF /* ic_pending_truck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 435869661B259534001574EF /* ic_pending_truck@2x.png */; };
+		4358696B1B25B2D4001574EF /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358696A1B25B2D4001574EF /* NSString+Helpers.m */; };
+		4358696D1B25B8BB001574EF /* nav_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358696C1B25B8BB001574EF /* nav_logo@2x.png */; };
+		4358698F1B25CB9E001574EF /* 87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358698C1B25CB9E001574EF /* 87x87.png */; };
+		435869901B25CB9E001574EF /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358698D1B25CB9E001574EF /* 120x120.png */; };
+		435869911B25CB9E001574EF /* 180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358698E1B25CB9E001574EF /* 180x180.png */; };
+		435869941B25CC3C001574EF /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 435869921B25CC3C001574EF /* 58x58.png */; };
+		435869951B25CC3C001574EF /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 435869931B25CC3C001574EF /* 80x80.png */; };
+		4379DD3D1B2ABB8700FB8AD0 /* splash_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4379DD3C1B2ABB8700FB8AD0 /* splash_logo@2x.png */; };
 		437ACB121B20B5050025E62B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB111B20B5050025E62B /* main.m */; };
 		437ACB151B20B5050025E62B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB141B20B5050025E62B /* AppDelegate.m */; };
 		437ACB181B20B5050025E62B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB171B20B5050025E62B /* ViewController.m */; };
 		437ACB1B1B20B5050025E62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB191B20B5050025E62B /* Main.storyboard */; };
 		437ACB1D1B20B5050025E62B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB1C1B20B5050025E62B /* Images.xcassets */; };
 		437ACB201B20B5050025E62B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB1E1B20B5050025E62B /* LaunchScreen.xib */; };
-		437ACB2C1B20B5050025E62B /* CoronaDentalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB2B1B20B5050025E62B /* CoronaDentalTests.m */; };
+		437ACB371B20BF660025E62B /* CDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB361B20BF650025E62B /* CDHomeViewController.m */; };
+		437ACB3A1B20CCD40025E62B /* CDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB391B20CCD40025E62B /* CDLoginViewController.m */; };
+		437ACB5A1B22F5000025E62B /* CDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB591B22F5000025E62B /* CDWebViewController.m */; };
+		437ACB5D1B2308D40025E62B /* CDNavDrawerControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB5C1B2308D40025E62B /* CDNavDrawerControllerTableViewController.m */; };
+		437ACB671B231BBC0025E62B /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB5F1B231BBC0025E62B /* MMDrawerBarButtonItem.m */; };
+		437ACB681B231BBC0025E62B /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB611B231BBC0025E62B /* MMDrawerController.m */; };
+		437ACB691B231BBC0025E62B /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB641B231BBC0025E62B /* MMDrawerVisualState.m */; };
+		437ACB6A1B231BBC0025E62B /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB661B231BBC0025E62B /* UIViewController+MMDrawerController.m */; };
+		437ACB6D1B2320FB0025E62B /* CDNewOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB6C1B2320FB0025E62B /* CDNewOrderCell.m */; };
+		437ACB711B23212B0025E62B /* CDProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ACB701B23212B0025E62B /* CDProductCell.m */; };
+		437ACB761B232AC10025E62B /* Corona-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB731B232AC10025E62B /* Corona-13.png */; };
+		437ACB771B232AC10025E62B /* Corona-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB741B232AC10025E62B /* Corona-20.png */; };
+		437ACB781B232AC10025E62B /* Corona-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB751B232AC10025E62B /* Corona-75.png */; };
+		437ACB7A1B2345720025E62B /* Corona-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB791B2345710025E62B /* Corona-19.png */; };
+		437ACB7C1B235D930025E62B /* ic_newOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB7B1B235D930025E62B /* ic_newOrder.png */; };
+		437ACB8E1B2361F70025E62B /* ic_deals1.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB891B2361F70025E62B /* ic_deals1.png */; };
+		437ACB8F1B2361F70025E62B /* ic_dueOrder1.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB8A1B2361F70025E62B /* ic_dueOrder1.png */; };
+		437ACB901B2361F70025E62B /* ic_dueOrder2.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB8B1B2361F70025E62B /* ic_dueOrder2.png */; };
+		437ACB911B2361F70025E62B /* ic_dueOrder3.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB8C1B2361F70025E62B /* ic_dueOrder3.png */; };
+		437ACB921B2361F70025E62B /* ic_pendingOrder1.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB8D1B2361F70025E62B /* ic_pendingOrder1.png */; };
+		437ACB941B2386560025E62B /* ic_profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB931B2386550025E62B /* ic_profilePic.png */; };
+		437ACBA11B2463F10025E62B /* air-water-syringe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB951B2463F10025E62B /* air-water-syringe@2x.jpg */; };
+		437ACBA21B2463F10025E62B /* alfanet-alignet@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB961B2463F10025E62B /* alfanet-alignet@2x.jpg */; };
+		437ACBA31B2463F10025E62B /* amar-singh-profimg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB971B2463F10025E62B /* amar-singh-profimg1@2x.png */; };
+		437ACBA41B2463F10025E62B /* cavit-g@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB981B2463F10025E62B /* cavit-g@2x.jpg */; };
+		437ACBA51B2463F10025E62B /* impression-trays@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB991B2463F10025E62B /* impression-trays@2x.jpg */; };
+		437ACBA61B2463F10025E62B /* k-files@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB9A1B2463F10025E62B /* k-files@2x.jpg */; };
+		437ACBAA1B2463F10025E62B /* start-new-order@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB9E1B2463F10025E62B /* start-new-order@2x.jpg */; };
+		437ACBAB1B2463F10025E62B /* start-new-order.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACB9F1B2463F10025E62B /* start-new-order.jpg */; };
+		437ACBAC1B2463F10025E62B /* supermax-gloves@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBA01B2463F10025E62B /* supermax-gloves@2x.jpg */; };
+		437ACBB21B256B2B0025E62B /* ic_past_orders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBAD1B256B2B0025E62B /* ic_past_orders@2x.png */; };
+		437ACBB31B256B2B0025E62B /* ic_pending_delivery01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBAE1B256B2B0025E62B /* ic_pending_delivery01@2x.png */; };
+		437ACBB41B256B2B0025E62B /* ic_pending_delivery02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBAF1B256B2B0025E62B /* ic_pending_delivery02@2x.png */; };
+		437ACBB81B256C810025E62B /* ic_pending_delivery03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBB71B256C810025E62B /* ic_pending_delivery03@2x.png */; };
+		437ACBBA1B25767D0025E62B /* ic_pending-del-green@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 437ACBB91B25767D0025E62B /* ic_pending-del-green@2x.jpg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		437ACB261B20B5050025E62B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 437ACB041B20B5040025E62B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 437ACB0B1B20B5040025E62B;
-			remoteInfo = CoronaDental;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		437ACB0C1B20B5040025E62B /* CoronaDental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaDental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435869661B259534001574EF /* ic_pending_truck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pending_truck@2x.png"; sourceTree = "<group>"; };
+		435869691B25B2D4001574EF /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		4358696A1B25B2D4001574EF /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		4358696C1B25B8BB001574EF /* nav_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_logo@2x.png"; sourceTree = "<group>"; };
+		4358698C1B25CB9E001574EF /* 87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87x87.png; sourceTree = "<group>"; };
+		4358698D1B25CB9E001574EF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		4358698E1B25CB9E001574EF /* 180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180x180.png; sourceTree = "<group>"; };
+		435869921B25CC3C001574EF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		435869931B25CC3C001574EF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		4379DD3C1B2ABB8700FB8AD0 /* splash_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_logo@2x.png"; sourceTree = "<group>"; };
+		437ACB0C1B20B5040025E62B /* Xmedco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xmedco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437ACB101B20B5040025E62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437ACB111B20B5050025E62B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		437ACB131B20B5050025E62B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +80,54 @@
 		437ACB1A1B20B5050025E62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		437ACB1C1B20B5050025E62B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		437ACB1F1B20B5050025E62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		437ACB251B20B5050025E62B /* CoronaDentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoronaDentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437ACB2A1B20B5050025E62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437ACB2B1B20B5050025E62B /* CoronaDentalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoronaDentalTests.m; sourceTree = "<group>"; };
+		437ACB351B20BF650025E62B /* CDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDHomeViewController.h; path = ../CDHomeViewController.h; sourceTree = "<group>"; };
+		437ACB361B20BF650025E62B /* CDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDHomeViewController.m; path = ../CDHomeViewController.m; sourceTree = "<group>"; };
+		437ACB381B20CCD40025E62B /* CDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLoginViewController.h; sourceTree = "<group>"; };
+		437ACB391B20CCD40025E62B /* CDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLoginViewController.m; sourceTree = "<group>"; };
+		437ACB581B22F5000025E62B /* CDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDWebViewController.h; path = ../CDWebViewController.h; sourceTree = "<group>"; };
+		437ACB591B22F5000025E62B /* CDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDWebViewController.m; path = ../CDWebViewController.m; sourceTree = "<group>"; };
+		437ACB5B1B2308D40025E62B /* CDNavDrawerControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDNavDrawerControllerTableViewController.h; path = ../CDNavDrawerControllerTableViewController.h; sourceTree = "<group>"; };
+		437ACB5C1B2308D40025E62B /* CDNavDrawerControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDNavDrawerControllerTableViewController.m; path = ../CDNavDrawerControllerTableViewController.m; sourceTree = "<group>"; };
+		437ACB5E1B231BBC0025E62B /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		437ACB5F1B231BBC0025E62B /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		437ACB601B231BBC0025E62B /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		437ACB611B231BBC0025E62B /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		437ACB621B231BBC0025E62B /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		437ACB631B231BBC0025E62B /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		437ACB641B231BBC0025E62B /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		437ACB651B231BBC0025E62B /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		437ACB661B231BBC0025E62B /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		437ACB6B1B2320FB0025E62B /* CDNewOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNewOrderCell.h; sourceTree = "<group>"; };
+		437ACB6C1B2320FB0025E62B /* CDNewOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNewOrderCell.m; sourceTree = "<group>"; };
+		437ACB6F1B23212B0025E62B /* CDProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDProductCell.h; sourceTree = "<group>"; };
+		437ACB701B23212B0025E62B /* CDProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDProductCell.m; sourceTree = "<group>"; };
+		437ACB731B232AC10025E62B /* Corona-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corona-13.png"; sourceTree = "<group>"; };
+		437ACB741B232AC10025E62B /* Corona-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corona-20.png"; sourceTree = "<group>"; };
+		437ACB751B232AC10025E62B /* Corona-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corona-75.png"; sourceTree = "<group>"; };
+		437ACB791B2345710025E62B /* Corona-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corona-19.png"; sourceTree = "<group>"; };
+		437ACB7B1B235D930025E62B /* ic_newOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_newOrder.png; sourceTree = "<group>"; };
+		437ACB891B2361F70025E62B /* ic_deals1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_deals1.png; sourceTree = "<group>"; };
+		437ACB8A1B2361F70025E62B /* ic_dueOrder1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_dueOrder1.png; sourceTree = "<group>"; };
+		437ACB8B1B2361F70025E62B /* ic_dueOrder2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_dueOrder2.png; sourceTree = "<group>"; };
+		437ACB8C1B2361F70025E62B /* ic_dueOrder3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_dueOrder3.png; sourceTree = "<group>"; };
+		437ACB8D1B2361F70025E62B /* ic_pendingOrder1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pendingOrder1.png; sourceTree = "<group>"; };
+		437ACB931B2386550025E62B /* ic_profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_profilePic.png; sourceTree = "<group>"; };
+		437ACB951B2463F10025E62B /* air-water-syringe@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "air-water-syringe@2x.jpg"; sourceTree = "<group>"; };
+		437ACB961B2463F10025E62B /* alfanet-alignet@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alfanet-alignet@2x.jpg"; sourceTree = "<group>"; };
+		437ACB971B2463F10025E62B /* amar-singh-profimg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amar-singh-profimg1@2x.png"; sourceTree = "<group>"; };
+		437ACB981B2463F10025E62B /* cavit-g@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cavit-g@2x.jpg"; sourceTree = "<group>"; };
+		437ACB991B2463F10025E62B /* impression-trays@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "impression-trays@2x.jpg"; sourceTree = "<group>"; };
+		437ACB9A1B2463F10025E62B /* k-files@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k-files@2x.jpg"; sourceTree = "<group>"; };
+		437ACB9E1B2463F10025E62B /* start-new-order@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start-new-order@2x.jpg"; sourceTree = "<group>"; };
+		437ACB9F1B2463F10025E62B /* start-new-order.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start-new-order.jpg"; sourceTree = "<group>"; };
+		437ACBA01B2463F10025E62B /* supermax-gloves@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "supermax-gloves@2x.jpg"; sourceTree = "<group>"; };
+		437ACBAD1B256B2B0025E62B /* ic_past_orders@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_past_orders@2x.png"; sourceTree = "<group>"; };
+		437ACBAE1B256B2B0025E62B /* ic_pending_delivery01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pending_delivery01@2x.png"; sourceTree = "<group>"; };
+		437ACBAF1B256B2B0025E62B /* ic_pending_delivery02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pending_delivery02@2x.png"; sourceTree = "<group>"; };
+		437ACBB71B256C810025E62B /* ic_pending_delivery03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pending_delivery03@2x.png"; sourceTree = "<group>"; };
+		437ACBB91B25767D0025E62B /* ic_pending-del-green@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ic_pending-del-green@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,30 +138,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		437ACB221B20B5050025E62B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		435869681B25B2C6001574EF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				435869691B25B2D4001574EF /* NSString+Helpers.h */,
+				4358696A1B25B2D4001574EF /* NSString+Helpers.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		437ACB031B20B5040025E62B = {
 			isa = PBXGroup;
 			children = (
 				437ACB0E1B20B5040025E62B /* CoronaDental */,
 				437ACB281B20B5050025E62B /* CoronaDentalTests */,
 				437ACB0D1B20B5040025E62B /* Products */,
+				A0E10401A8344C3D6243AB5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		437ACB0D1B20B5040025E62B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				437ACB0C1B20B5040025E62B /* CoronaDental.app */,
-				437ACB251B20B5050025E62B /* CoronaDentalTests.xctest */,
+				437ACB0C1B20B5040025E62B /* Xmedco.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +171,27 @@
 		437ACB0E1B20B5040025E62B /* CoronaDental */ = {
 			isa = PBXGroup;
 			children = (
+				435869681B25B2C6001574EF /* Utility */,
+				437ACB721B232AAE0025E62B /* Images */,
+				4379DD3C1B2ABB8700FB8AD0 /* splash_logo@2x.png */,
+				437ACB6E1B2321110025E62B /* Cells */,
+				437ACB3B1B20D0020025E62B /* MMDrawer */,
 				437ACB131B20B5050025E62B /* AppDelegate.h */,
 				437ACB141B20B5050025E62B /* AppDelegate.m */,
+				437ACB5B1B2308D40025E62B /* CDNavDrawerControllerTableViewController.h */,
+				437ACB5C1B2308D40025E62B /* CDNavDrawerControllerTableViewController.m */,
+				437ACB581B22F5000025E62B /* CDWebViewController.h */,
+				437ACB591B22F5000025E62B /* CDWebViewController.m */,
 				437ACB161B20B5050025E62B /* ViewController.h */,
 				437ACB171B20B5050025E62B /* ViewController.m */,
+				437ACB351B20BF650025E62B /* CDHomeViewController.h */,
+				437ACB361B20BF650025E62B /* CDHomeViewController.m */,
 				437ACB191B20B5050025E62B /* Main.storyboard */,
 				437ACB1C1B20B5050025E62B /* Images.xcassets */,
 				437ACB1E1B20B5050025E62B /* LaunchScreen.xib */,
 				437ACB0F1B20B5040025E62B /* Supporting Files */,
+				437ACB381B20CCD40025E62B /* CDLoginViewController.h */,
+				437ACB391B20CCD40025E62B /* CDLoginViewController.m */,
 			);
 			path = CoronaDental;
 			sourceTree = "<group>";
@@ -119,12 +222,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		437ACB3B1B20D0020025E62B /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				437ACB5E1B231BBC0025E62B /* MMDrawerBarButtonItem.h */,
+				437ACB5F1B231BBC0025E62B /* MMDrawerBarButtonItem.m */,
+				437ACB601B231BBC0025E62B /* MMDrawerController.h */,
+				437ACB611B231BBC0025E62B /* MMDrawerController.m */,
+				437ACB621B231BBC0025E62B /* MMDrawerController+Subclass.h */,
+				437ACB631B231BBC0025E62B /* MMDrawerVisualState.h */,
+				437ACB641B231BBC0025E62B /* MMDrawerVisualState.m */,
+				437ACB651B231BBC0025E62B /* UIViewController+MMDrawerController.h */,
+				437ACB661B231BBC0025E62B /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawer;
+			sourceTree = "<group>";
+		};
+		437ACB6E1B2321110025E62B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				437ACB6B1B2320FB0025E62B /* CDNewOrderCell.h */,
+				437ACB6C1B2320FB0025E62B /* CDNewOrderCell.m */,
+				437ACB6F1B23212B0025E62B /* CDProductCell.h */,
+				437ACB701B23212B0025E62B /* CDProductCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		437ACB721B232AAE0025E62B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4358696C1B25B8BB001574EF /* nav_logo@2x.png */,
+				437ACBAD1B256B2B0025E62B /* ic_past_orders@2x.png */,
+				435869661B259534001574EF /* ic_pending_truck@2x.png */,
+				437ACBAE1B256B2B0025E62B /* ic_pending_delivery01@2x.png */,
+				437ACBAF1B256B2B0025E62B /* ic_pending_delivery02@2x.png */,
+				437ACBB71B256C810025E62B /* ic_pending_delivery03@2x.png */,
+				435869921B25CC3C001574EF /* 58x58.png */,
+				435869931B25CC3C001574EF /* 80x80.png */,
+				4358698C1B25CB9E001574EF /* 87x87.png */,
+				4358698D1B25CB9E001574EF /* 120x120.png */,
+				4358698E1B25CB9E001574EF /* 180x180.png */,
+				437ACB951B2463F10025E62B /* air-water-syringe@2x.jpg */,
+				437ACB961B2463F10025E62B /* alfanet-alignet@2x.jpg */,
+				437ACB971B2463F10025E62B /* amar-singh-profimg1@2x.png */,
+				437ACB981B2463F10025E62B /* cavit-g@2x.jpg */,
+				437ACB991B2463F10025E62B /* impression-trays@2x.jpg */,
+				437ACB9A1B2463F10025E62B /* k-files@2x.jpg */,
+				437ACB9E1B2463F10025E62B /* start-new-order@2x.jpg */,
+				437ACBB91B25767D0025E62B /* ic_pending-del-green@2x.jpg */,
+				437ACB9F1B2463F10025E62B /* start-new-order.jpg */,
+				437ACBA01B2463F10025E62B /* supermax-gloves@2x.jpg */,
+				437ACB891B2361F70025E62B /* ic_deals1.png */,
+				437ACB8A1B2361F70025E62B /* ic_dueOrder1.png */,
+				437ACB8B1B2361F70025E62B /* ic_dueOrder2.png */,
+				437ACB8C1B2361F70025E62B /* ic_dueOrder3.png */,
+				437ACB8D1B2361F70025E62B /* ic_pendingOrder1.png */,
+				437ACB931B2386550025E62B /* ic_profilePic.png */,
+				437ACB731B232AC10025E62B /* Corona-13.png */,
+				437ACB7B1B235D930025E62B /* ic_newOrder.png */,
+				437ACB791B2345710025E62B /* Corona-19.png */,
+				437ACB741B232AC10025E62B /* Corona-20.png */,
+				437ACB751B232AC10025E62B /* Corona-75.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A0E10401A8344C3D6243AB5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		437ACB0B1B20B5040025E62B /* CoronaDental */ = {
+		437ACB0B1B20B5040025E62B /* Xmedco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 437ACB2F1B20B5050025E62B /* Build configuration list for PBXNativeTarget "CoronaDental" */;
+			buildConfigurationList = 437ACB2F1B20B5050025E62B /* Build configuration list for PBXNativeTarget "Xmedco" */;
 			buildPhases = (
 				437ACB081B20B5040025E62B /* Sources */,
 				437ACB091B20B5040025E62B /* Frameworks */,
@@ -134,28 +310,10 @@
 			);
 			dependencies = (
 			);
-			name = CoronaDental;
+			name = Xmedco;
 			productName = CoronaDental;
-			productReference = 437ACB0C1B20B5040025E62B /* CoronaDental.app */;
+			productReference = 437ACB0C1B20B5040025E62B /* Xmedco.app */;
 			productType = "com.apple.product-type.application";
-		};
-		437ACB241B20B5050025E62B /* CoronaDentalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 437ACB321B20B5050025E62B /* Build configuration list for PBXNativeTarget "CoronaDentalTests" */;
-			buildPhases = (
-				437ACB211B20B5050025E62B /* Sources */,
-				437ACB221B20B5050025E62B /* Frameworks */,
-				437ACB231B20B5050025E62B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				437ACB271B20B5050025E62B /* PBXTargetDependency */,
-			);
-			name = CoronaDentalTests;
-			productName = CoronaDentalTests;
-			productReference = 437ACB251B20B5050025E62B /* CoronaDentalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +326,6 @@
 				TargetAttributes = {
 					437ACB0B1B20B5040025E62B = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					437ACB241B20B5050025E62B = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 437ACB0B1B20B5040025E62B;
 					};
 				};
 			};
@@ -188,8 +342,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				437ACB0B1B20B5040025E62B /* CoronaDental */,
-				437ACB241B20B5050025E62B /* CoronaDentalTests */,
+				437ACB0B1B20B5040025E62B /* Xmedco */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +352,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437ACB8E1B2361F70025E62B /* ic_deals1.png in Resources */,
 				437ACB1B1B20B5050025E62B /* Main.storyboard in Resources */,
+				437ACB921B2361F70025E62B /* ic_pendingOrder1.png in Resources */,
+				437ACBB81B256C810025E62B /* ic_pending_delivery03@2x.png in Resources */,
+				437ACB781B232AC10025E62B /* Corona-75.png in Resources */,
+				435869671B259534001574EF /* ic_pending_truck@2x.png in Resources */,
+				437ACBA51B2463F10025E62B /* impression-trays@2x.jpg in Resources */,
+				437ACB941B2386560025E62B /* ic_profilePic.png in Resources */,
+				437ACBAB1B2463F10025E62B /* start-new-order.jpg in Resources */,
+				437ACBA61B2463F10025E62B /* k-files@2x.jpg in Resources */,
+				437ACBB41B256B2B0025E62B /* ic_pending_delivery02@2x.png in Resources */,
+				437ACB8F1B2361F70025E62B /* ic_dueOrder1.png in Resources */,
+				437ACBAC1B2463F10025E62B /* supermax-gloves@2x.jpg in Resources */,
 				437ACB201B20B5050025E62B /* LaunchScreen.xib in Resources */,
+				437ACBB31B256B2B0025E62B /* ic_pending_delivery01@2x.png in Resources */,
+				437ACB7C1B235D930025E62B /* ic_newOrder.png in Resources */,
 				437ACB1D1B20B5050025E62B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		437ACB231B20B5050025E62B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				437ACBBA1B25767D0025E62B /* ic_pending-del-green@2x.jpg in Resources */,
+				437ACB911B2361F70025E62B /* ic_dueOrder3.png in Resources */,
+				437ACBA41B2463F10025E62B /* cavit-g@2x.jpg in Resources */,
+				4358698F1B25CB9E001574EF /* 87x87.png in Resources */,
+				437ACBA11B2463F10025E62B /* air-water-syringe@2x.jpg in Resources */,
+				4379DD3D1B2ABB8700FB8AD0 /* splash_logo@2x.png in Resources */,
+				437ACBAA1B2463F10025E62B /* start-new-order@2x.jpg in Resources */,
+				435869951B25CC3C001574EF /* 80x80.png in Resources */,
+				437ACBA21B2463F10025E62B /* alfanet-alignet@2x.jpg in Resources */,
+				437ACB761B232AC10025E62B /* Corona-13.png in Resources */,
+				437ACBB21B256B2B0025E62B /* ic_past_orders@2x.png in Resources */,
+				437ACB7A1B2345720025E62B /* Corona-19.png in Resources */,
+				437ACB771B232AC10025E62B /* Corona-20.png in Resources */,
+				435869911B25CB9E001574EF /* 180x180.png in Resources */,
+				435869901B25CB9E001574EF /* 120x120.png in Resources */,
+				435869941B25CC3C001574EF /* 58x58.png in Resources */,
+				437ACB901B2361F70025E62B /* ic_dueOrder2.png in Resources */,
+				437ACBA31B2463F10025E62B /* amar-singh-profimg1@2x.png in Resources */,
+				4358696D1B25B8BB001574EF /* nav_logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,29 +398,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437ACB711B23212B0025E62B /* CDProductCell.m in Sources */,
+				437ACB6A1B231BBC0025E62B /* UIViewController+MMDrawerController.m in Sources */,
+				437ACB691B231BBC0025E62B /* MMDrawerVisualState.m in Sources */,
+				4358696B1B25B2D4001574EF /* NSString+Helpers.m in Sources */,
+				437ACB371B20BF660025E62B /* CDHomeViewController.m in Sources */,
+				437ACB671B231BBC0025E62B /* MMDrawerBarButtonItem.m in Sources */,
+				437ACB5A1B22F5000025E62B /* CDWebViewController.m in Sources */,
+				437ACB3A1B20CCD40025E62B /* CDLoginViewController.m in Sources */,
 				437ACB181B20B5050025E62B /* ViewController.m in Sources */,
 				437ACB151B20B5050025E62B /* AppDelegate.m in Sources */,
+				437ACB6D1B2320FB0025E62B /* CDNewOrderCell.m in Sources */,
+				437ACB5D1B2308D40025E62B /* CDNavDrawerControllerTableViewController.m in Sources */,
+				437ACB681B231BBC0025E62B /* MMDrawerController.m in Sources */,
 				437ACB121B20B5050025E62B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		437ACB211B20B5050025E62B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				437ACB2C1B20B5050025E62B /* CoronaDentalTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		437ACB271B20B5050025E62B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 437ACB0B1B20B5040025E62B /* CoronaDental */;
-			targetProxy = 437ACB261B20B5050025E62B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		437ACB191B20B5050025E62B /* Main.storyboard */ = {
@@ -280,7 +454,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -302,6 +477,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6e1cb1f6-b8c4-4716-bd33-842fd0e9dc45";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +500,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -339,6 +516,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6e1cb1f6-b8c4-4716-bd33-842fd0e9dc45";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -349,9 +527,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
 				INFOPLIST_FILE = CoronaDental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e1cb1f6-b8c4-4716-bd33-842fd0e9dc45";
 			};
 			name = Debug;
 		};
@@ -359,43 +541,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Instant Systems Inc. (6E2QT4S838)";
 				INFOPLIST_FILE = CoronaDental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		437ACB331B20B5050025E62B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CoronaDentalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoronaDental.app/CoronaDental";
-			};
-			name = Debug;
-		};
-		437ACB341B20B5050025E62B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CoronaDentalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoronaDental.app/CoronaDental";
+				PROVISIONING_PROFILE = "6e1cb1f6-b8c4-4716-bd33-842fd0e9dc45";
 			};
 			name = Release;
 		};
@@ -411,21 +563,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		437ACB2F1B20B5050025E62B /* Build configuration list for PBXNativeTarget "CoronaDental" */ = {
+		437ACB2F1B20B5050025E62B /* Build configuration list for PBXNativeTarget "Xmedco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				437ACB301B20B5050025E62B /* Debug */,
 				437ACB311B20B5050025E62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		437ACB321B20B5050025E62B /* Build configuration list for PBXNativeTarget "CoronaDentalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				437ACB331B20B5050025E62B /* Debug */,
-				437ACB341B20B5050025E62B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

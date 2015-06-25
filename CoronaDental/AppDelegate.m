@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#define FLDeviceIsUIKit7() [[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0f
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    if (FLDeviceIsUIKit7()) {
+        [[UINavigationBar appearance]setBarTintColor:[UIColor colorWithRed:30.0f/255.0f green:138.0f/255.0f blue:220.0f/255.0f alpha:1.0f]];
+    }
+    
+        // Navigation bar buttons appearance
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CDHomeViewController.h
 //  CoronaDental
 //
 //  Created by Raju Gautam on 04/06/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CDHomeViewController : UITableViewController
 
 @end
-
